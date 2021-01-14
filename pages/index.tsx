@@ -3,7 +3,7 @@ function Heading(props) {
   return (
     <div>
       {/* INSPECT ELEMENT TO SEE NEXT IS ADDING A CLASS IN EVERY ELEMENT  */}
-      <h1>{props.heading}</h1>
+      <h1 className="blue" >{props.heading}</h1>
       {/* https://nextjs.org/blog/styling-next-with-styled-jsx */}
       {/* <style jsx>
         {`

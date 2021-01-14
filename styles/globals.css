@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.blue{
+  color: rgb(22, 22, 85);
+}

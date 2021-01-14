@@ -1,6 +1,7 @@
+import '../styles/globals.css'
 // Next.js uses the App component to initialize pages. You can override it and control the page initialization. 
 /*
-import '../styles/globals.css'
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
