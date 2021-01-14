@@ -31,4 +31,9 @@ npm install typescript @types/node @types/react --save-dev
 ### Pages
 
  - If we create a new page in pages folder we can route there 
- - for example create *nicepage.tsx* component now we can go to __http://localhost:3000/nicepage__
+ - for example create *nicepage.tsx* component 
+ - now we can go to __http://localhost:3000/nicepage__
+
+### _document.tsx
+
+ - 
