@@ -1,3 +1,5 @@
+// IT'S LIKE HIGHER ORDER COMPONENT 
+
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
