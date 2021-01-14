@@ -27,3 +27,8 @@ npm install typescript @types/node @types/react --save-dev
  __http://localhost:3000/vercel.svg__
 
  - We must have two folder in our project that is **pages** and **public**
+
+### Pages
+
+ - If we create a new page in pages folder we can route there 
+ - for example create *nicepage.tsx* component now we can go to __http://localhost:3000/nicepage__
