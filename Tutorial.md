@@ -34,6 +34,3 @@ npm install typescript @types/node @types/react --save-dev
  - for example create *nicepage.tsx* component 
  - now we can go to __http://localhost:3000/nicepage__
 
-### _document.tsx
-
- - 

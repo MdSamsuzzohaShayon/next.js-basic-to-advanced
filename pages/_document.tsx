@@ -4,8 +4,11 @@
 
 import Document, {Html, Head, Main, NextScript} from 'next/document';
 
+// THIS ONLY EXECUTE ON THE SERVER 
 export default class CustomDocument extends Document{
     render(){
+        console.log("hello from _document.tsx");
+        
         return (
             <Html>
                 <Head>
