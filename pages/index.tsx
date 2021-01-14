@@ -1,8 +1,11 @@
+import styles from './index.module.css';
+
 function Heading(props) {
   const variables = Math.random() > 0.5 ? "green": "blue";
   return (
     <div>
       {/* INSPECT ELEMENT TO SEE NEXT IS ADDING A CLASS IN EVERY ELEMENT  */}
+      <h1 className={styles.h1} >This is for css module</h1>
       <h1 className="blue" >{props.heading}</h1>
       {/* https://nextjs.org/blog/styling-next-with-styled-jsx */}
       {/* <style jsx>
@@ -37,7 +40,7 @@ export default function Home(props) {
   return (
     <div>
       <Heading heading="This is heading" />
-      <h2 className="title" onClick={() => alert("hello from alert")}>Hello Next From index</h2>
+      <h2 className="title h1" onClick={() => alert("hello from alert")}>Hello Next From index</h2>
 
     </div>
   )
