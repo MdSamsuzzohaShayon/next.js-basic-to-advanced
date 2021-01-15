@@ -1,7 +1,7 @@
 import {GetStaticProps} from 'next';
 import path from 'path';
 
-// EXUCATION ON SERVER 
+// EXUCATION ON SERVER BEFORE THE COMPONENT 
 export const getStaticProps:GetStaticProps = async context =>{
 
     const fs = require('fs');
@@ -10,6 +10,7 @@ export const getStaticProps:GetStaticProps = async context =>{
     
 
     return {
+        revalidate: 10, // UPDATE IN EVERY 10 SECONDS // USELESS ON LOCALHOST
         props: {
             num : 4,
             text
