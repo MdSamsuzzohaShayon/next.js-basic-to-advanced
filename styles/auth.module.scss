@@ -1,0 +1,28 @@
+$color_1 :  rgb(26, 39, 82);
+$color_2 : rgb(121, 120, 219);
+
+.wrapper{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    .form{
+        padding: 30px;
+        background:$color_1;
+        color: $color_2;
+        margin: 30px;
+        .input{
+            border: $color_2 solid 2px;
+            padding: 10px 20px;
+            margin: 10px auto;
+            outline: none;
+            color: $color_2;
+        }
+        .submit{
+            background:$color_2;
+            padding: 10px 30px;
+            border: none;
+            color:$color_1;
+            outline: none;
+        }
+    }
+}

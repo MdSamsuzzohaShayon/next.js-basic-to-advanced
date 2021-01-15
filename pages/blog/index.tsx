@@ -4,6 +4,9 @@ const index = () => {
         <div className={styles.wrapper}>
             <h2 className={styles.pm}>This is blog</h2>
             <h1 className={styles.pm}>This is blog</h1>
+
+            <br />
+            <br />
         </div>
     )
 }
