@@ -14,6 +14,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Go to <Link href="/shayon">Shayon's page!</Link>
         </h1>
+        <h1 className={styles.title}>
+          Go to <Link href="/shayon/activities">Shayon's activities!</Link>
+        </h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
