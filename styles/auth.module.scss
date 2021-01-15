@@ -17,6 +17,9 @@ $color_2 : rgb(121, 120, 219);
             outline: none;
             color: $color_2;
         }
+        ::-webkit-input-placeholder { /* Edge */
+            color: $color_2;
+          }
         .submit{
             background:$color_2;
             padding: 10px 30px;
